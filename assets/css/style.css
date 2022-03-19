@@ -423,6 +423,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.giopio-title-size{
+  font-size: 42px;
+}
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -476,16 +480,308 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 1rem;
 }
 
-@media (min-width: 1147px) {
+@media (min-width: 640px) {
   .container {
-    max-width: 1147px;
+    max-width: 640px;
   }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.giopio-navlink {
+  display: inline-block;
+  padding: 0.5rem;
+  transition-duration: 500ms;
+}
+
+.giopio-navlink:hover {
+  --tw-text-opacity: 1;
+  color: rgb(251 100 0 / var(--tw-text-opacity));
+}
+
+.giopio-btn {
+  display: inline-block;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 100 0 / var(--tw-bg-opacity));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-duration: 500ms;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.-right-1\/4 {
+  right: -25%;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.-right-3 {
+  right: -0.75rem;
+}
+
+.-right-2 {
+  right: -0.5rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.bottom-14 {
+  bottom: 3.5rem;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
+.ml-36 {
+  margin-left: 9rem;
+}
+
+.mt-52 {
+  margin-top: 13rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mr-44 {
+  margin-right: 11rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mt-44 {
+  margin-top: 11rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
   display: flex;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.pt-9 {
+  padding-top: 2.25rem;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .font-montserrat {
   font-family: Montserrat, sans-serif;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-giopio-text {
+  --tw-text-opacity: 1;
+  color: rgb(74 88 113 / var(--tw-text-opacity));
+}
+
+.text-giopio-black {
+  --tw-text-opacity: 1;
+  color: rgb(38 64 76 / var(--tw-text-opacity));
+}
+
+.text-giopio-orange {
+  --tw-text-opacity: 1;
+  color: rgb(251 100 0 / var(--tw-text-opacity));
+}
+
+.text-giopio-red {
+  --tw-text-opacity: 1;
+  color: rgb(251 74 89 / var(--tw-text-opacity));
+}
+
+.after\:after-border::after{
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #E1EAF8;
+  z-index: -1;
+}
+
+.hover\:bg-giopio-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 64 76 / var(--tw-bg-opacity));
 }

@@ -6,10 +6,10 @@ module.exports = {
       center: true,
       padding: '1rem',
     },
-    screens: {
-      'xl': '1147px',
-      '2xl': '1147px',
-    },
+    // screens: {
+    //   'xl': '1147px',
+    //   '2xl': '1147px',
+    // },
     fontFamily: {
       'montserrat': ['Montserrat', 'sans-serif'],
     },
@@ -17,6 +17,8 @@ module.exports = {
       'giopio-orange': '#FB6400',
       'giopio-black': '#26404C',
       'giopio-text': '#4A5871',
+      'white': '#ffffff',
+      'giopio-red': '#fb4a59'
     }
   },
   plugins: [],

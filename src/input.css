@@ -2,8 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-    .giopio-btn {
-      @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+@layer base {
+    .giopio-title-size{
+        font-size: 42px;
     }
-  }
+}
+@layer components {
+    .giopio-navlink {
+        @apply p-2 inline-block duration-500 hover:text-giopio-orange
+    }
+    .giopio-btn {
+        @apply bg-giopio-orange text-white rounded-lg py-4 px-6 duration-500 inline-block;
+    }
+    .after-border{
+        position: absolute;
+        content: "";
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 1px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #E1EAF8;
+        z-index: -1;
+    }
+}
