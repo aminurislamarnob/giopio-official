@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="font-montserrat">
@@ -28,13 +30,14 @@
                         <a href="#" class="giopio-btn ml-36 hover:bg-giopio-black">Start A Project</a>
                     </div>
                 </nav>
-                <div class="h-screen absolute right-0 top-0 -z-10" style="width: 417px;background: #E1EAF8;"></div>
+                <div class="absolute right-0 top-0 -z-10 giopio-banner-bg-col"></div>
             </div>
         </div>
     </header>
     <!--Header Section [End]-->
 
-    <section class="mt-36 mb-24">
+    <!--Banner Section [Start]-->
+    <section class="mt-32 mb-24">
         <div class="container">
             <div class="relative">
                 <div class="flex items-center">
@@ -52,5 +55,240 @@
             </div>
         </div>
     </section>
+    <!--Banner Section [End]-->
+
+    <!--Message Section [Start]-->
+    <section class="relative z-10">
+        <div class="bg-giopio-black absolute left-0 top-0 w-4/5 h-full -z-10"></div>
+        <div class="container pt-16 pb-20">
+            <h2 class="text-3xl text-white font-bold mb-7">Have An Idea? Just Leave A Message!</h2>
+            <p class="text-white font-medium">We are bound to give life to your dream project. Our support team will get back to in 12-h during standard business hours.</p>
+            <div class="flex mt-16">
+                <div class="w-4/6">
+                    <div class="columns-3 gap-7 mb-7">
+                        <div>
+                            <input type="text" class="giopio-form-control" placeholder="Your name">
+                        </div>
+                        <div>
+                            <input type="email" class="giopio-form-control" placeholder="Your email">
+                        </div>
+                        <div>
+                            <input type="text" class="giopio-form-control" placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <textarea name="" id="" cols="30" rows="4" class="giopio-form-control" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="columns-3 gap-7">
+                        <div>
+                            <button type="submit" class="giopio-btn w-full hover:bg-white hover:text-giopio-orange">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Message Section [End]-->
+
+    <!--Service Section [Start]-->
+    <section class="py-28">
+        <div class="container">
+            <div class="w-20 h-1 bg-giopio-orange mb-6"></div>
+            <h2 class="text-giopio-black giopio-title-size font-bold mb-2">Giopio Can Help You <span class="inline-block text-giopio-orange">Grow</span> Your Business</h2>
+        </div>
+        <div class="w-10/12 ml-auto mr-0 mt-24 service-slider-wrapper">
+            <div id="serviceSlider">
+                <a href="#" class="service-box border border-giopio-border rounded-2xl p-10 mr-8 duration-300 hover:border-giopio-orange ">
+                    <div class="mb-12 h-12"><img class="max-h-12" src="assets/images/facebook-app-development.png" alt="Facebook App Development"></div>
+                    <h4 class="text-xl font-bold text-giopio-black mb-10 h-14">Facebook App Development</h4>
+                    <p class="text-sm text-giopio-text leading-7">Bring your service or product to billion of users. Take this opportunity to connect potential customers every single day through Facebook apps.</p>
+                </a>
+                <a href="#" class="service-box border border-giopio-border rounded-2xl p-10 mr-8 duration-300 hover:border-giopio-orange">
+                    <div class="mb-12 h-12"><img class="max-h-12" src="assets/images/web-design-development.png" alt="Facebook App Development"></div>
+                    <h4 class="text-xl font-bold text-giopio-black mb-10 h-14">Web Design & Development</h4>
+                    <p class="text-sm text-giopio-text leading-7">We have several years of experienced highly skilled Tech Team for you to transform your idea, just an idea into a fully developed product or service.</p>
+                </a>
+                <a href="#" class="service-box border border-giopio-border rounded-2xl p-10 mr-8 duration-300 hover:border-giopio-orange">
+                    <div class="mb-12 h-12"><img class="max-h-12" src="assets/images/wp-theme-plugin-development.png" alt="Facebook App Development"></div>
+                    <h4 class="text-xl font-bold text-giopio-black mb-10 h-14">Wp Theme & Plugin Development</h4>
+                    <p class="text-sm text-giopio-text leading-7">Do you want a new website? We are providing powerful digital solutions and an enjoyable user experience with our WordPress.</p>
+                </a>
+                <a href="#" class="service-box border border-giopio-border rounded-2xl p-10 mr-8 duration-300 hover:border-giopio-orange">
+                    <div class="mb-12 h-12"><img class="max-h-12" src="assets/images/digital-marketing.png" alt="Facebook App Development"></div>
+                    <h4 class="text-xl font-bold text-giopio-black mb-10 h-14">Digital Marketing</h4>
+                    <p class="text-sm text-giopio-text leading-7">On social media, email and other digital devices, we can provide you with innovative & cost-effective online marketing campaigns for your Business.</p>
+                </a>
+                <a href="#" class="service-box border border-giopio-border rounded-2xl p-10 mr-8 duration-300 hover:border-giopio-orange">
+                    <div class="mb-12 h-12"><img class="max-h-12" src="assets/images/laravel-application-development.png" alt="Facebook App Development"></div>
+                    <h4 class="text-xl font-bold text-giopio-black mb-10 h-14">Laravel Application Development</h4>
+                    <p class="text-sm text-giopio-text leading-7">Lorem ipsum dolor sit amet, conse tetur adipiscing elit, sed do eiusm tempor incididunt ut labore et dolor magna aliqua. Sed do eiusmod tempor.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--Service Section [End]-->
+
+    <!--Our Works Section [End]-->
+    <section class="pb-28">
+        <div class="container">
+            <div class="mb-28">
+                <div class="w-20 h-1 bg-giopio-orange mb-6"></div>
+                <h2 class="text-giopio-black giopio-title-size font-bold mb-2">Our Works <span class="inline-block text-giopio-orange"> Define Us</span></h2>
+            </div>
+        </div>
+        <!--Project 01-->
+        <div class="relative z-10">
+            <div class="absolute right-0 top-0 bottom-0 w-4/6 -z-10" style="background-color: #FFF3F3;"></div>
+            <div class="container">
+                <div class="flex items-center py-28">
+                    <div class="flex-1 flex justify-center">
+                        <img src="assets/images/project-1.png" alt="Find A Job Near You">
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-3xl font-bold text-giopio-black mb-3">Find A Job Near You</h3>
+                        <h5 class="text-lg font-semibold text-giopio-black mb-8">A React And Nodejs Project</h5>
+                        <p class="text-sm text-giopio-text leading-6 font-medium mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor.</p>
+                        <div class="text-sm text-giopio-text font-semibold mb-2">Duration: Nov 2017 - Dec 2018</div>
+                        <div class="text-sm text-giopio-text font-semibold mb-8">Project Scope: Web Design & Development</div>
+                        <div class="mb-10">
+                            <span class="text-sm text-giopio-text font-semibold mr-5">Technologies:</span>
+                            <a href="#" class="giopio-tag-btn">ReactJS</a>
+                            <a href="#" class="giopio-tag-btn">nodeJS</a>
+                            <a href="#" class="giopio-tag-btn">Python</a>
+                            <a href="#" class="giopio-tag-btn">HTML</a>
+                            <a href="#" class="giopio-tag-btn">CSS</a>
+                        </div>
+                        <a href="#" class="giopio-btn-black hover:bg-giopio-orange px-10">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Project 02-->
+        <div class="relative z-10">
+            <div class="absolute left-0 top-0 bottom-0 w-4/6 -z-10" style="background-color: #FEF8F3;"></div>
+            <div class="container">
+                <div class="flex items-center py-28">
+                    <div class="flex-1 flex justify-center order-2">
+                        <img src="assets/images/project-2.png" alt="Find A Job Near You">
+                    </div>
+                    <div class="flex-1 order-1">
+                        <h3 class="text-3xl font-bold text-giopio-black mb-3">Panibal</h3>
+                        <h5 class="text-lg font-semibold text-giopio-black mb-8">A React And Nodejs Project</h5>
+                        <p class="text-sm text-giopio-text leading-6 font-medium mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor.</p>
+                        <div class="text-sm text-giopio-text font-semibold mb-2">Duration: Feb 2019 - Dec 2019</div>
+                        <div class="text-sm text-giopio-text font-semibold mb-8">Project Scope: Web Design & Development</div>
+                        <div class="mb-10">
+                            <span class="text-sm text-giopio-text font-semibold mr-5">Technologies:</span>
+                            <a href="#" class="giopio-tag-btn">ReactJS</a>
+                            <a href="#" class="giopio-tag-btn">nodeJS</a>
+                            <a href="#" class="giopio-tag-btn">Python</a>
+                        </div>
+                        <a href="#" class="giopio-btn-black hover:bg-giopio-orange px-10">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Project 03-->
+        <div class="relative z-10">
+            <div class="absolute right-0 top-0 bottom-0 w-4/6 -z-10" style="background-color: #F3F9FF;"></div>
+            <div class="container">
+                <div class="flex items-center py-28">
+                    <div class="flex-1 flex justify-center">
+                        <img src="assets/images/project-3.png" alt="Find A Job Near You">
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-3xl font-bold text-giopio-black mb-3">De Ultieme A Product Research Tool!</h3>
+                        <h5 class="text-lg font-semibold text-giopio-black mb-8">A React And Nodejs Project</h5>
+                        <p class="text-sm text-giopio-text leading-6 font-medium mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor.</p>
+                        <div class="text-sm text-giopio-text font-semibold mb-2">Duration: Mar 2020 - Sep 2020</div>
+                        <div class="text-sm text-giopio-text font-semibold mb-8">Project Scope: Web Design & Development</div>
+                        <div class="mb-10">
+                            <span class="text-sm text-giopio-text font-semibold mr-5">Technologies:</span>
+                            <a href="#" class="giopio-tag-btn">nodeJS</a>
+                            <a href="#" class="giopio-tag-btn">Python</a>
+                            <a href="#" class="giopio-tag-btn">HTML</a>
+                            <a href="#" class="giopio-tag-btn">CSS</a>
+                        </div>
+                        <a href="#" class="giopio-btn-black hover:bg-giopio-orange px-10">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Project 04-->
+        <div class="relative z-10">
+            <div class="absolute left-0 top-0 bottom-0 w-4/6 -z-10" style="background-color: #F5F3FE;"></div>
+            <div class="container">
+                <div class="flex items-center py-28">
+                    <div class="flex-1 flex justify-center order-2">
+                        <img src="assets/images/project-4.png" alt="Find A Job Near You">
+                    </div>
+                    <div class="flex-1 order-1">
+                        <h3 class="text-3xl font-bold text-giopio-black mb-3">Clermilano.com</h3>
+                        <h5 class="text-lg font-semibold text-giopio-black mb-8">A React And Nodejs Project</h5>
+                        <p class="text-sm text-giopio-text leading-6 font-medium mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor.</p>
+                        <div class="text-sm text-giopio-text font-semibold mb-2">Duration: Nov 2021 - Mar 2022</div>
+                        <div class="text-sm text-giopio-text font-semibold mb-8">Project Scope: Web Design & Development</div>
+                        <div class="mb-10">
+                            <span class="text-sm text-giopio-text font-semibold mr-5">Technologies:</span>
+                            <a href="#" class="giopio-tag-btn">ReactJS</a>
+                            <a href="#" class="giopio-tag-btn">Python</a>
+                            <a href="#" class="giopio-tag-btn">HTML</a>
+                            <a href="#" class="giopio-tag-btn">CSS</a>
+                        </div>
+                        <a href="#" class="giopio-btn-black hover:bg-giopio-orange px-10">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center pt-14">
+            <a href="#" class=" text-giopio-orange text-base font-semibold duration-300 hover:text-giopio-black">Explore All Projects</a>
+            <div class="w-16 border border-giopio-orange ml-auto mr-auto mt-4"></div>
+        </div>
+        
+    </section>
+    <!--Our Works Section [End]-->
+
+    <!--Our Teams Section [End]-->
+    <section class="pb-28">
+        <div class="container">
+            <div class="mb-28">
+                <div class="w-20 h-1 bg-giopio-orange mb-6"></div>
+                <h2 class="text-giopio-black giopio-title-size font-bold mb-2">Meet Our <span class="inline-block text-giopio-orange">Team</span></h2>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script>
+        var slider = tns({
+            container: '#serviceSlider',
+            "items": 5,
+            "speed": 300,
+            "mouseDrag": true,
+            "controls": false,
+            "loop": false,
+            "autoplay": true,
+            "autoplayButtonOutput": false,
+            "center": true,
+            responsive: {
+                640: {
+                    items: 2
+                },
+                900: {
+                    items: 3
+                },
+                1200: {
+                    items: 4
+                },
+                1500: {
+                    items: 5
+                }
+            }
+        });
+      </script>
 </body>
 </html>

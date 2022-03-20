@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["*.{html,js}"],
+  content: ["*.html"],
   theme: {
     extend: {},
     container: {
@@ -14,12 +14,16 @@ module.exports = {
       'montserrat': ['Montserrat', 'sans-serif'],
     },
     colors: {
+      transparent: 'transparent',
       'giopio-orange': '#FB6400',
       'giopio-black': '#26404C',
       'giopio-text': '#4A5871',
       'white': '#ffffff',
-      'giopio-red': '#fb4a59'
+      'giopio-red': '#fb4a59',
+      'giopio-border': '#D9DEEB',
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

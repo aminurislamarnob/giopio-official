@@ -14,6 +14,14 @@
     .giopio-btn {
         @apply bg-giopio-orange text-white rounded-lg py-4 px-6 duration-500 inline-block;
     }
+    .giopio-btn-black {
+        @apply bg-giopio-black text-white rounded-lg py-4 px-6 duration-500 inline-block;
+    }
+    .giopio-tag-btn{
+        @apply text-sm text-giopio-text font-semibold border border-giopio-text rounded-lg px-3 mr-3 duration-300 hover:bg-giopio-text hover:text-white inline-block;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
     .after-border{
         position: absolute;
         content: "";
@@ -26,4 +34,19 @@
         background: #E1EAF8;
         z-index: -1;
     }
+    .giopio-form-control{
+        @apply form-input px-4 py-3 w-full rounded-lg border border-giopio-border bg-transparent duration-300 text-white placeholder:text-white focus:border-giopio-orange focus:ring focus:ring-giopio-orange focus:ring-opacity-5
+    }
+    .giopio-banner-bg-col{
+        width: 417px;
+        background: #E1EAF8;
+        min-height: 1080px;
+    }
+    .service-box{
+        min-height: 415px;
+    }
+    .service-box h4{
+        font-size: 22px;
+    }
+    .service-slider-wrapper .tns-nav{display: none;}
 }
