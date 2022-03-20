@@ -49,4 +49,59 @@
         font-size: 22px;
     }
     .service-slider-wrapper .tns-nav{display: none;}
+    .rounded-20 {
+        border-radius: 20px;
+    }
+    .team-member{
+        width: 334px;
+    }
+    .member-info{
+        @apply text-center bg-white rounded-20 p-7 border border-giopio-border w-10/12 mx-auto absolute -bottom-12 left-0 right-0 duration-500 group-hover:bg-giopio-orange group-hover:border-giopio-orange;
+    }
+    .testimonial{
+        box-shadow: 0px 23px 66px #B5CDF329;
+        border-radius: 40px;
+    }
+
+    .testimonial-carousel .tns-nav button {
+        width: 20px;
+        height: 6px;
+        background: #FCF0E7;
+        border-radius: 6px;
+        @apply duration-300
+    }
+
+    .testimonial-carousel .tns-nav button.tns-nav-active{
+        @apply bg-giopio-orange w-10
+    }
+    .testimonial-carousel .tns-controls button {
+        background: #FCF0E7;
+        width: 46px;
+        height: 46px;
+        border-radius: 6px;
+        @apply text-giopio-black duration-300
+    }
+    
+    .testimonial-carousel .tns-controls {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .testimonial-carousel .tns-controls button:hover {
+        box-shadow: 0px 23px 26px #FFA76E29;
+        @apply bg-giopio-orange text-white
+    }
+    .testimonial-carousel .tns-nav, .testimonial-carousel .tns-controls {
+        display: flex;
+        gap: 20px;
+        position: absolute;
+        bottom: 155px;
+        left: 105px;
+        z-index: 99;
+    }
+    .testimonial-carousel .tns-controls{
+        bottom: 134px;
+        left: auto;
+        right: 105px
+    }
 }
