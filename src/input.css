@@ -17,6 +17,9 @@
     .giopio-btn-black {
         @apply bg-giopio-black text-white rounded-lg py-4 px-6 duration-500 inline-block;
     }
+    .giopio-btn-white {
+        @apply bg-white text-giopio-orange rounded-lg py-4 px-6 duration-500 inline-block;
+    }
     .giopio-tag-btn{
         @apply text-sm text-giopio-text font-semibold border border-giopio-text rounded-lg px-3 mr-3 duration-300 hover:bg-giopio-text hover:text-white inline-block;
         padding-top: 6px;
