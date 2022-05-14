@@ -21,6 +21,7 @@ module.exports = {
       'white': '#ffffff',
       'giopio-red': '#fb4a59',
       'giopio-border': '#D9DEEB',
+      'giopio-border-2': '#DFE4EF',
     }
   },
   plugins: [

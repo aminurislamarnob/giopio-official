@@ -4,7 +4,7 @@
 
 @layer base {
     .giopio-title-size{
-        font-size: 42px;
+        font-size: 35px;
     }
 }
 @layer components {
@@ -12,18 +12,19 @@
         @apply p-2 inline-block duration-500 hover:text-giopio-orange
     }
     .giopio-btn {
-        @apply bg-giopio-orange text-white rounded-lg py-4 px-6 duration-500 inline-block;
+        @apply bg-giopio-orange text-white rounded-lg py-3 px-5 duration-500 inline-block;
     }
     .giopio-btn-black {
-        @apply bg-giopio-black text-white rounded-lg py-4 px-6 duration-500 inline-block;
+        @apply bg-giopio-black text-white rounded-lg py-3 px-5 duration-500 inline-block;
     }
     .giopio-btn-white {
-        @apply bg-white text-giopio-orange rounded-lg py-4 px-6 duration-500 inline-block;
+        @apply bg-white text-giopio-orange rounded-lg py-4 px-6 duration-500 inline-block text-sm;
     }
     .giopio-tag-btn{
-        @apply text-sm text-giopio-text font-semibold border border-giopio-text rounded-lg px-3 mr-3 duration-300 hover:bg-giopio-text hover:text-white inline-block;
-        padding-top: 6px;
-        padding-bottom: 6px;
+        @apply text-giopio-text font-semibold border border-giopio-text rounded-lg px-3 mr-3 duration-300 hover:bg-giopio-text hover:text-white inline-block;
+        padding-top: 5px;
+        font-size: 11px;
+        padding-bottom: 5px;
     }
     .after-border{
         position: absolute;
@@ -42,14 +43,14 @@
     }
     .giopio-banner-bg-col{
         width: 417px;
-        background: #E1EAF8;
-        min-height: 1080px;
+        background: #e1eaf8;
+        min-height: calc(100% + 200px);
     }
     .service-box{
         min-height: 415px;
     }
     .service-box h4{
-        font-size: 22px;
+        font-size: 16px;
     }
     .service-slider-wrapper .tns-nav{display: none;}
     .rounded-20 {
@@ -79,10 +80,10 @@
     }
     .testimonial-carousel .tns-controls button {
         background: #FCF0E7;
-        width: 46px;
-        height: 46px;
+        width: 40px;
+        height: 40px;
         border-radius: 6px;
-        @apply text-giopio-black duration-300
+        @apply text-giopio-black duration-300 text-sm leading-5
     }
     
     .testimonial-carousel .tns-controls {
@@ -98,13 +99,19 @@
         display: flex;
         gap: 20px;
         position: absolute;
-        bottom: 155px;
-        left: 105px;
+        bottom: 185px;
+        left: 12rem;
         z-index: 99;
     }
     .testimonial-carousel .tns-controls{
-        bottom: 134px;
+        bottom: 185px;
         left: auto;
-        right: 105px
+        right: 12rem;
+    }
+    .mx-w-500 {
+        max-width: 500px;
+    }
+    .active-accordion-bg {
+        background: #fef8f3;
     }
 }
