@@ -114,4 +114,36 @@
     .active-accordion-bg {
         background: #fef8f3;
     }
+    .banner-title-box{
+        width: 119px;
+        height: 515px;
+        @apply bg-giopio-black pt-7 pb-7 pl-14 relative after:after-line
+    }
+    .banner-title{
+        font-size: 42px;
+        transform: rotate(270deg);
+        left: -9px;
+        bottom: 101px;
+        @apply font-bold text-white absolute
+    }
+    .after-line{
+        position: absolute;
+        height: 160px;
+        width: 1px;
+        background: #fff;
+        top: 65px;
+        margin-top: -0.5px;
+        @apply right-14
+    }
+    .mission-title-box{
+        @apply after:hidden
+    }
+    .about-banner-text{
+        width: calc(100% - 180px)
+    }
+    .mission-title {
+        width: 360px;
+        left: -120px;
+        bottom: 232px;
+    }
 }
