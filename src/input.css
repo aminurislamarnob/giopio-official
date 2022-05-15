@@ -146,4 +146,7 @@
         left: -120px;
         bottom: 232px;
     }
+    .blog-box-shdow{
+        box-shadow: 0px 23px 66px #99A8D229;
+    }
 }
