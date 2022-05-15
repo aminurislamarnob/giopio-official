@@ -22,6 +22,7 @@ module.exports = {
       'giopio-red': '#fb4a59',
       'giopio-border': '#D9DEEB',
       'giopio-border-2': '#DFE4EF',
+      'giopio-gray-bg': '#F5F7FF',
     }
   },
   plugins: [

@@ -146,7 +146,26 @@
         left: -120px;
         bottom: 232px;
     }
+    .blog-banner{
+        min-width: 605px;
+    }
     .blog-box-shdow{
         box-shadow: 0px 23px 66px #99A8D229;
     }
+    .aritcle-details p, .aritcle-details ul {font-size: 16px;color: #4A5871;font-weight: 500;margin-bottom: 20px;}
+
+    .aritcle-details ul {list-style-type: disc;margin-left: 55px;}
+
+    .aritcle-details ul li {margin-bottom: 10px;}
+    .social-icon-shadow{box-shadow: 0px 23px 26px #99A8D242;}
+    .message-box {
+        background: rgb(251,100,0);
+        background: -moz-linear-gradient(90deg, rgba(251,100,0,0.5158438375350141) 14%, rgba(251,100,0,0.6194852941176471) 44%, rgba(255,255,255,1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(251,100,0,0.5158438375350141) 14%, rgba(251,100,0,0.6194852941176471) 44%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(90deg, rgba(251,100,0,0.5158438375350141) 14%, rgba(251,100,0,0.6194852941176471) 44%, rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb6400",endColorstr="#ffffff",GradientType=1);
+        border-radius: 20px;padding: 41px 60px;
+    }
+
+.message-box .message-icon {background: #fff;width: 90px;height: 90px;text-align: center;line-height: 90px;font-size: 30px;border-radius: 23px;box-shadow: 0px 23px 26px #E0B8A242;}
 }
