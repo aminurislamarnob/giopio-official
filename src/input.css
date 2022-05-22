@@ -4,7 +4,20 @@
 
 @layer base {
     .giopio-title-size{
-        font-size: 35px;
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .contact-title, .testimonial-title, .blog-highlight-title{
+        font-size: 28px;
+    }
+    .section-big-padding{
+        padding: 120px 0;
+    }
+    .project-box-title{
+        font-size: 32px;
+    }
+    .blog-title-size{
+        font-size: 22px;
     }
 }
 @layer components {
@@ -12,10 +25,10 @@
         @apply p-2 inline-block duration-500 hover:text-giopio-orange
     }
     .giopio-btn {
-        @apply bg-giopio-orange text-white rounded-lg py-3 px-5 duration-500 inline-block;
+        @apply bg-giopio-orange text-white rounded-lg py-4 px-5 duration-500 inline-block;
     }
     .giopio-btn-black {
-        @apply bg-giopio-black text-white rounded-lg py-3 px-5 duration-500 inline-block;
+        @apply bg-giopio-black text-white rounded-lg py-4 px-5 duration-500 inline-block;
     }
     .giopio-btn-white {
         @apply bg-white text-giopio-orange rounded-lg py-4 px-6 duration-500 inline-block text-sm;
@@ -23,7 +36,7 @@
     .giopio-tag-btn{
         @apply text-giopio-text font-semibold border border-giopio-text rounded-lg px-3 mr-3 duration-300 hover:bg-giopio-text hover:text-white inline-block;
         padding-top: 5px;
-        font-size: 11px;
+        font-size: 12px;
         padding-bottom: 5px;
     }
     .after-border{
@@ -39,7 +52,8 @@
         z-index: -1;
     }
     .giopio-form-control{
-        @apply form-input px-4 py-3 w-full rounded-lg border border-giopio-border bg-transparent duration-300 text-white placeholder:text-white focus:border-giopio-orange focus:ring focus:ring-giopio-orange focus:ring-opacity-5
+        @apply form-input text-base px-4 py-3 w-full rounded-lg border border-giopio-border bg-transparent duration-300 text-white placeholder:text-white focus:border-giopio-orange focus:ring focus:ring-giopio-orange focus:ring-opacity-5;
+        min-height: 56px;
     }
     .giopio-banner-bg-col{
         width: 417px;
@@ -50,7 +64,7 @@
         min-height: 415px;
     }
     .service-box h4{
-        font-size: 16px;
+        font-size: 22px;
     }
     .service-slider-wrapper .tns-nav{display: none;}
     .rounded-20 {
@@ -58,6 +72,7 @@
     }
     .team-member{
         width: 334px;
+        height: 410px;
     }
     .member-info{
         @apply text-center bg-white rounded-20 p-7 border border-giopio-border w-10/12 mx-auto absolute -bottom-12 left-0 right-0 duration-500 group-hover:bg-giopio-orange group-hover:border-giopio-orange;
@@ -152,7 +167,7 @@
     .blog-box-shdow{
         box-shadow: 0px 23px 66px #99A8D229;
     }
-    .aritcle-details p, .aritcle-details ul {font-size: 16px;color: #4A5871;font-weight: 500;margin-bottom: 20px;}
+    .aritcle-details p, .aritcle-details ul {font-size: 18px;color: #4A5871;font-weight: 500;margin-bottom: 20px;}
 
     .aritcle-details ul {list-style-type: disc;margin-left: 55px;}
 
