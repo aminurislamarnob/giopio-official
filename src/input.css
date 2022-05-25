@@ -126,6 +126,9 @@
     .mx-w-500 {
         max-width: 500px;
     }
+    .mx-w-283 {
+        max-width: 283px;
+    }
     .active-accordion-bg {
         background: #fef8f3;
     }
@@ -133,6 +136,9 @@
         width: 119px;
         height: 515px;
         @apply bg-giopio-black pt-7 pb-7 pl-14 relative after:after-line
+    }
+    .project-title-box{
+        height: 600px;
     }
     .banner-title{
         font-size: 42px;
@@ -161,6 +167,11 @@
         left: -120px;
         bottom: 232px;
     }
+    .project-desc-title{
+        width: 426px;
+        left: -158px;
+        bottom: 263px;
+    }
     .blog-banner{
         min-width: 605px;
     }
@@ -182,5 +193,9 @@
         border-radius: 20px;padding: 41px 60px;
     }
 
-.message-box .message-icon {background: #fff;width: 90px;height: 90px;text-align: center;line-height: 90px;font-size: 30px;border-radius: 23px;box-shadow: 0px 23px 26px #E0B8A242;}
+    .message-box .message-icon {background: #fff;width: 90px;height: 90px;text-align: center;line-height: 90px;font-size: 30px;border-radius: 23px;box-shadow: 0px 23px 26px #E0B8A242;}
+    .point-number{
+        @apply font-black text-8xl absolute left-0 bottom-1;
+        opacity: 6%;
+    }
 }
