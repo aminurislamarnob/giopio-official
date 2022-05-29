@@ -254,6 +254,7 @@
     }
     header.menu-sticky{
         background-color: #fff!important;
+        z-index: 999!important;
         @apply blog-box-shdow
     }
     header.menu-sticky .giopio-navlink{
