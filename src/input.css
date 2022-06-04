@@ -77,7 +77,10 @@
     }
 
     .giopio-form-control{
-        @apply form-input text-sm 2xl:text-base px-4 py-3 w-full rounded-lg border border-giopio-border bg-transparent duration-300 text-white placeholder:text-white focus:border-giopio-orange focus:ring focus:ring-giopio-orange focus:ring-opacity-5 h-12 2xl:h-14;
+        @apply form-input text-sm 2xl:text-base px-4 py-3 w-full rounded-lg border border-giopio-border bg-transparent duration-300 text-white placeholder:text-white focus:border-giopio-orange focus:ring focus:ring-giopio-orange focus:ring-opacity-5 h-12 2xl:h-14 focus:outline-none focus:shadow-none;
+    }
+    .giopio-form-control.form-control-style-white{
+        @apply placeholder:text-giopio-text text-giopio-black
     }
     .giopio-banner-bg-col{
         width: 417px;
@@ -260,6 +263,26 @@
     header.menu-sticky .giopio-navlink{
         @apply py-2 lg:py-8;
     }
+    .mega-menu{
+        box-shadow: 0px 23px 36px #69749829;
+    }
+    .giopio-modal{
+        max-width: 888px;
+        box-shadow: 0px 23px 36px #69749829;
+        z-index: 9999;
+    }
+    .giopio-modal-backdrop{
+        z-index: 9998;
+    }
+    .giopio-modal.active{
+        @apply visible opacity-100
+    }
+    .giopio-modal-backdrop.active{
+        @apply visible bg-giopio-text/25 opacity-100
+    }
+    .category-menu::-webkit-scrollbar {
+        display:none
+    }
     @media screen(lg) {
         .testimonial-carousel .tns-nav{
             @apply block;
@@ -282,7 +305,7 @@
         }
         .mobile-nav{
             z-index: 999;
-            @apply fixed bg-white h-screen -left-60 top-0 w-60 p-5 duration-300
+            @apply fixed bg-white h-screen -left-full top-0 w-4/5 p-5 duration-300 overflow-y-auto
         }
         
         .mobile-black-screen{
@@ -293,6 +316,24 @@
         }
         .mobile-menu-close{
             @apply block w-7 h-7 leading-7 bg-giopio-text text-center text-white rounded-md text-sm duration-300 hover:bg-giopio-orange;
+        }
+        .mega-discount-blue-strip{
+            position: absolute!important;
+            width: calc(100% + 30px)!important;
+            left: -15px!important;
+        }
+        .mega-menu {
+            @apply hidden;
+        }
+        .mega-menu.active {
+            @apply block;
+        }
+    }
+    @media only screen and (min-width: 2200px){
+        .mega-discount-blue-strip{
+            position: absolute!important;
+            width: 100%!important;
+            left: -100px!important;
         }
     }
 }

@@ -31,6 +31,7 @@ module.exports = {
       'giopio-light-orange': '#FFF3F3',
       'giopio-black': '#26404C',
       'giopio-text': '#4A5871',
+      'giopio-text-blue': '#4D94FF',
       'white': '#ffffff',
       'giopio-red': '#fb4a59',
       'giopio-border': '#D9DEEB',
